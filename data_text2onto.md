@@ -6,7 +6,7 @@ subtitle: Converting your documents into a phenotyping database
 
 This tool is for the situtation in which you have created a set of text documents and have used Phenotero to annotate HPO or MONDO entries within the texts. In situations like this you might want to perform sophisticated analyses using your data or exchange the ontology references with a third party.
 
-Our software Text2Onto extracts ontology terms from all your documents and creates a tab-separated file of the form:
+Our software _Text2Onto_ extracts ontology terms from all your documents and creates a tab-separated file of the form:
 
 ```
 
@@ -17,5 +17,7 @@ Our software Text2Onto extracts ontology terms from all your documents and creat
 /lastyear/patient_3322.docx	MONDO:0009162,HP:0000773,HP:0000774 
 ```
 
-This can then be used for downstram analyses like patient clustering etc.
+This can then be used for downstream analyses like patient clustering etc.
+
+Our software is freely available at our [GitHub repository](https://github.com/phenotero/text2onto).
 

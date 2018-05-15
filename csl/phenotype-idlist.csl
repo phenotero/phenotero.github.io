@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
+  <info>
+    <title>Phenotero - Phenotypes-IDlist</title>
+    <id>http://www.zotero.org/styles/phenotypes-idlist</id>
+    <link href="http://www.zotero.org/styles/phenotypes-idlist" rel="self"/>
+    <link href="http://phenotero.github.io" rel="documentation"/>
+    <author>
+      <name>Sebastian Köhler</name>
+      <email>sebastian.koehler@charite.de</email>
+      <uri>http://drseb.github.io</uri>
+    </author>
+    <author>
+      <name>Daniela Hombach</name>
+      <email>daniela.hombach@charite.de</email>
+    </author>
+    <contributor>
+      <name>Jana Marie Schwarz</name>
+      <email>jana-marie.schwarz@charite.de</email>
+    </contributor>
+    <category citation-format="numeric"/>
+    <updated>2018-04-01T04:01:14+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <locale xml:lang="en">
+  </locale>
+  <!-- Macros -->
+  <macro name="citation-locator">
+    <group delimiter=" ">
+      <choose>
+        <if locator="page">
+          <label variable="locator" form="short"/>
+        </if>
+        <else>
+          <label variable="locator" form="short" text-case="capitalize-first"/>
+        </else>
+      </choose>
+      <text variable="locator"/>
+    </group>
+  </macro>
+<!-- Citation -->
+<citation>
+   <sort>
+     <key variable="container-title"/>
+   </sort>
+   <layout delimiter=", ">
+     <group prefix="[" suffix="]" delimiter=", ">
+       <text variable="container-title"/>
+       <text macro="citation-locator"/>
+     </group>
+   </layout>
+ </citation>
+ <!-- Bibliography -->
+ <bibliography entry-spacing="0" second-field-align="flush">
+   <layout suffix=".">
+     <!-- Citation Number -->
+     <text variable="container-title"/>
+   </layout>
+ </bibliography>
+</style>
