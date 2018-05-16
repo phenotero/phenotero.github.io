@@ -24,39 +24,68 @@
   </info>
   <locale xml:lang="en">
   </locale>
-  <!-- Macros -->
+  <!-- Macros --> 
   <macro name="citation-locator">
     <group delimiter=" ">
       <choose>
-        <if locator="page">
-          <label variable="locator" form="short"/>
-        </if>
+        <if type="entry-dictionary">
+			<text variable="container-title"/>
+		</if>
         <else>
-          <label variable="locator" form="short" text-case="capitalize-first"/>
+          <text variable="citation-number"/>
         </else>
       </choose>
       <text variable="locator"/>
     </group>
   </macro>
+   <macro name="sort-key">
+	<choose>
+		<if type="entry-dictionary" match="any">
+			<text value="1"/>
+		</if>
+		<else>
+			<text value="2"/>
+		</else>
+	</choose>
+</macro>  
 <!-- Citation -->
  <citation >
    <sort>
      <key variable="container-title"/>
    </sort>
    <layout delimiter=", ">
-     <group prefix="[" suffix="]" delimiter=", ">
-       <text variable="container-title"/>
-       <text macro="citation-locator"/>
-     </group>
+     <choose>
+	<if type="entry-dictionary">
+		<group prefix="[" suffix="]" delimiter=", ">
+		<text macro="citation-locator"/>
+	</group>
+	</if>
+	<else>
+		<group prefix="[" suffix="]" delimiter=", ">
+		<text macro="citation-locator"/>
+	</group>
+	</else>
+	</choose>
    </layout>
  </citation>
  <!-- Bibliography -->
  <bibliography entry-spacing="0" second-field-align="flush">
+ <sort>
+   	 <key macro="sort-key"/>
+    </sort>
    <layout>
-     <!-- Citation Number -->
-     <text variable="container-title" prefix="[" suffix="]"/>
-     <!-- Rest of Citation -->
+   <choose>
+		<if type="entry-dictionary">
+		<!-- Citation Number -->
+		<text variable="container-title" prefix="[" suffix="]"/>
+		<!-- Rest of Citation -->
        <text variable="title" font-style="normal"/>
+	</if>
+	<else>
+		<text variable="citation-number"/>
+		<text variable="title"/>
+	</else>
+	</choose>     
    </layout>
  </bibliography>
 </style> 
