@@ -19,9 +19,13 @@ Phenotero provides a quick and easy solution for referencing ontology-based phen
 
 Please find links to all data and to the documentation in the upper right corner of this web site.
 
-# The creators
+# The Creators
 
 Phenotero has been developed by the [Translational Genomics Team](http://doro.charite.de/team.html) and the [Phenomics Team](https://phenomics.github.io/) in Berlin. Specifically these are Daniela Hombach, Jana Marie Schwarz, Dominik Seelow, Markus Schuelke, Ellen Knierim, and Sebastian Köhler.
+
+# Publication
+
+We have uploaded the current manuscript to _bioRxiv_. Please [check it out at https://doi.org/10.1101/324053](https://doi.org/10.1101/324053).
 
 # Feedback
 
