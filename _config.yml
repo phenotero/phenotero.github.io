@@ -30,7 +30,7 @@ navbar-links:
     - CSL files: "data_csl"
     - Obo2Json: "data_obo2json"
     - Text2Onto: "data_text2onto"
-  Help:
+  Documentation:
     - Set it up: "doc_setup"
     - Import libraries: "doc_import_libraries"
     - Import styles: "doc_import_csl"
