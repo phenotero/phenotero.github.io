@@ -4,4 +4,4 @@ title: Phenotero project started!
 
 ---
 
-We started the Phenotero project in March 2018.
+We started the _Phenotero_ project in March 2018.
