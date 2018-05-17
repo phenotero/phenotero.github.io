@@ -27,6 +27,10 @@ Phenotero has been developed by the [Translational Genomics Team](http://doro.ch
 
 We have uploaded the current manuscript to _bioRxiv_. Please [check it out at https://doi.org/10.1101/324053](https://doi.org/10.1101/324053).
 
+# Related projects
+
+If you have a professional informatics infrastructure, you might consider using [PhenoTips](https://phenotips.org/). For analysing you text retrospectively, you might want to have a look at the [NCBO annotator](https://bioportal.bioontology.org/annotator). (Note that for the latter your text is sent through the internet)
+
 # Feedback
 
 Contact us at [sebastian.koehler@charite.de](mailto:sebastian.koehler@charite.de).
