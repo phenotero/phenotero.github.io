@@ -11,7 +11,7 @@ In case that this is your first reference in the text, the plugin will ask you w
 
 The workflow to add references to ontology classes should look like this:
 
-![annotate](/img/screenshots/phenotero_annotate.png "Phenotero - Annotate as you write")
+![annotate](/img/screenshots/phenotero.gif "Phenotero - Annotate as you write")
 
 
 If you want to add a bibliography to your text, simply use the “Add/Edit Bibliography” button within the Zotero plugin. Citation styles are [available here](/data_csl).
