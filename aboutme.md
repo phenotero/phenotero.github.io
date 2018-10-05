@@ -7,6 +7,9 @@ subtitle: What is Phenotero ?
 
 Phenotero is a simple tool for referencing phenotypes and diseases in written text and allows clinicians and clinical researchers to readily stay within word processing software. This enables a novel workflow for direct in-text annotations of ontology classes, which we call _annotate as you write_.
 
+![annotate](/img/screenshots/phenotero.gif "Phenotero - Annotate as you write")
+
+
 # Zotero
 
 Phenotero is based on the free, open-source citation software Zotero and thus builds on existing features such as a word-processor plugin, standardised and extendible citation styles, a search functionality, and active community support.
