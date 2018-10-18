@@ -4,7 +4,7 @@ title: JSON
 subtitle: How to import the libraries using JSON files.
 ---
 
-There is also the option to import the ontologies via JSON files which we make available for download here. To generate these files we transferred the OBO versions of HPO and MONDO into JSON-format.
+There is also the option to import the ontologies (or any other ontology) via JSON files which we make available for download here. To generate these files we transferred the OBO versions of HPO and MONDO into JSON-format.
 
 We currently provide two ontologies (use right-click + save as) 
 
