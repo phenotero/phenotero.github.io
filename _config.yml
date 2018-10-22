@@ -31,7 +31,7 @@ navbar-links:
     - Use in Word/Libre Office: "doc_usage"
     - Modify CSL files: "doc_mod_csl"
     - Publication: "doc_paper"
-Data:
+  Data:
     - Group libraries: "data_groups"
     - JSON files: "data_json"
     - CSL files: "data_csl"
