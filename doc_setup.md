@@ -4,12 +4,10 @@ title: Setting up Phenotero
 subtitle: How to set up Phenotero
 ---
 
-How to set up Phenotero 		
-
 The initial set-up of Phenotero requires three steps: 
- * Installation of Zotero
- * Phenotero library import
- * Citation Style Language (CSL) file import
+ * Installation of Zotero (described on this page)
+ * Phenotero library import (described [here](/doc_import_libraries))
+ * Citation Style Language (CSL) file import (described [here](/doc_import_csl))
 
 
 # Installation 
