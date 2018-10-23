@@ -15,5 +15,5 @@ Once you have joined these groups, you will automatically be notified about upda
 ![sync](/img/screenshots/sync_groups.gif "Phenotero - Sync Groups")
 
 
-Note that the syncing procedure may take a while. In our experience it should be less than one hour.
+Note that the initial syncing procedure may take a while. In our experience it should be less than one hour.
 

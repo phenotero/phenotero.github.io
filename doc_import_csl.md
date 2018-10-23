@@ -10,3 +10,4 @@ You can add Phenotero styles by clicking on the Button labelled with a "+" and t
 
 ![import_csl](/img/screenshots/import_csl.gif "Phenotero - Import CSL file")
 
+If you wish to use a style which is not available for Phenotero yet, don’t hesitate to get in touch or edit your own CSL file following our explanation [here](https://phenotero.github.io/doc_mod_csl/).

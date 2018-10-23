@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Obo2Json
+title: Obo2json
 subtitle: Transforming an ontology into a library
 ---
 
