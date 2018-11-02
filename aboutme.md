@@ -34,7 +34,7 @@ We are happy about any kind of feedback on the manuscript as well as on the usag
 
 # Related projects
 
-If you have a professional informatics infrastructure, you might consider using [PhenoTips](https://phenotips.org/). For analysing you text retrospectively, you might want to have a look at the [NCBO annotator](https://bioportal.bioontology.org/annotator). (Note that for the latter your text is sent through the internet)
+If you have a professional informatics infrastructure, you might consider using [PhenoTips](https://phenotips.org/). For analysing you text retrospectively, you might want to have a look at the [Monarch annotator](https://monarchinitiative.org/annotate/text). (Note that for the latter your text is sent through the internet)
 
 # Feedback
 
