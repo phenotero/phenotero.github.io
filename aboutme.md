@@ -28,7 +28,7 @@ Phenotero is developed by the [Translational Genomics Team](http://doro.charite.
 
 # Publication
 
-Further detailed information about Phenotero is available in our publication. We have uploaded the current manuscript to [https://doi.org/10.1101/324053](bioRxiv).
+Further detailed information about Phenotero is available in our, which is available at [https://onlinelibrary.wiley.com/doi/10.1111/cge.13471](https://onlinelibrary.wiley.com/doi/10.1111/cge.13471).
 We are happy about any kind of feedback on the manuscript as well as on the usage of Phenotero.
 
 
